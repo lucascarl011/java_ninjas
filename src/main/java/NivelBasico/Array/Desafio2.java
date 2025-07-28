@@ -15,7 +15,7 @@ public class Desafio2 {
 
         while (opcao != 3) {
 
-            System.out.println("====== Menu Ninja =======");
+            System.out.println("======= Menu Ninja =======");
             System.out.println("1. Cadastrar Ninja");
             System.out.println("2. Listar Ninjas");
             System.out.println("3. Sair");
