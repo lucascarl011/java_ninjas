@@ -2,7 +2,7 @@ package NivelIntermediario;
 
 public class Hyuga extends Ninja {
 
-    public void ativarLeituraDeMentes() {
-        System.out.println("Meu nome é " + nome + ", eu tenho " + idade + " anos" + ", sou da " + aldeia + ", estou lendo sua mente!");
+    public void ByakuganAtivado() {
+        System.out.println("Meu nome é " + nome + ", eu tenho " + idade + " anos" + ", sou da " + aldeia + ", O Byakugan Ativou, Eu sou Hyuga!");
     }
 }

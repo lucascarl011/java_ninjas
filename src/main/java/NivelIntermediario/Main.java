@@ -30,6 +30,6 @@ public class Main {
         Hinata.nome = "Hinata Hyuga";
         Hinata.idade = 16;
         Hinata.aldeia = "Aldeia da Folha";
-        Hinata.ativarLeituraDeMentes();
+        Hinata.ByakuganAtivado();
     }
 }
