@@ -24,7 +24,6 @@ public class Main {
         Sakura.idade = 15;
         Sakura.ativarCura();
 
-
         // Objeto 4
         Hyuga Hinata = new Hyuga();
         Hinata.nome = "Hinata Hyuga";
