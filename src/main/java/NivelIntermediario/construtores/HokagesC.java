@@ -1,6 +1,6 @@
 package NivelIntermediario.construtores;
 
-public class HokagesC {
+public abstract class HokagesC {
 
     // Atributos
     String nome;
@@ -18,4 +18,7 @@ public class HokagesC {
         this.idade = idade;
         this.vivoOuMorto = vivoOuMorto;
     }
+
+    public void sabedoriaHokage() {}
+    public void rasengan() {}
 }

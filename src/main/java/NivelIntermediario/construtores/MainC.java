@@ -4,8 +4,21 @@ public class MainC {
     public static void main(String[] args) {
 
         // AllArgs Constructor = contrutor com todos argumentos
-        HokagesC minato = new HokagesC("Minato Namikaze", 32, false);
-        System.out.println(minato.nome);
+        Senju hashirama = new Senju();
+        hashirama.nome = "Hashirama Senju";
+        hashirama.idade = 45;
+        hashirama.vivoOuMorto = true;
+        System.out.println(hashirama.nome);
+        hashirama.sabedoriaHokage();
+
+        System.out.println();
+        Uzumaki naruto = new Uzumaki();
+        naruto.nome = "Naruto Uzumaki";
+        naruto.idade = 18;
+        naruto.vivoOuMorto = true;
+        System.out.println(naruto.nome);
+        naruto.rasengan();
+
 
     }
 }
