@@ -6,9 +6,11 @@ public class MainPoliEABS {
         Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.habilidadeEspecial();
+        naruto.estrategiaDeBatalha();
 
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.habilidadeEspecial();
+        sasuke.estrategiaDeBatalha();
     }
 }
