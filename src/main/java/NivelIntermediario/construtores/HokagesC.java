@@ -1,5 +1,6 @@
 package NivelIntermediario.construtores;
 
+// claasses abstratas não podem ser instanciadas -  não se pode pegar uma classe abstrata e criar um objeto a partir dela
 public abstract class HokagesC {
 
     // Atributos
@@ -19,6 +20,7 @@ public abstract class HokagesC {
         this.vivoOuMorto = vivoOuMorto;
     }
 
+    // Metodos abstratos não podem ter corpo
     public void sabedoriaHokage() {}
     public void rasengan() {}
 }

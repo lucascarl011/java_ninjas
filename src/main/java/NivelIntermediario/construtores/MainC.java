@@ -3,7 +3,7 @@ package NivelIntermediario.construtores;
 public class MainC {
     public static void main(String[] args) {
 
-        // AllArgs Constructor = contrutor com todos argumentos
+        // AllArgs Constructor = construtor com todos argumentos
         Senju hashirama = new Senju();
         hashirama.nome = "Hashirama Senju";
         hashirama.idade = 45;
