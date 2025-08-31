@@ -2,5 +2,5 @@ package NivelIntermediario.herançaMultipla;
 
 public interface AnbuInterface {
 
-    void bemVindoAAnbu();
+    void ninjaDeElite();
 }
