@@ -1,6 +1,6 @@
-package NivelIntermediario.herançaMultipla;
+package NivelIntermediario.herancaMultipla;
 
-public class MainHerançaMultipla {
+public class MainHerancaMultipla {
     public static void main(String[] args) {
 
         Uchiha sasuke = new Uchiha();
@@ -15,5 +15,7 @@ public class MainHerançaMultipla {
         kakashi.aldeia = "Aldeia da Folha";
         kakashi.boasVindas();
         kakashi.sharinganAtivado();
+        kakashi.ninjaDeElite();
+        kakashi.hokageAtivo();
     }
 }

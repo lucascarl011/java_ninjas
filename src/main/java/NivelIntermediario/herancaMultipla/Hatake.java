@@ -1,6 +1,6 @@
-package NivelIntermediario.herançaMultipla;
+package NivelIntermediario.herancaMultipla;
 
-public class Hatake extends Ninja implements SharinganInterface, AnbuInterface{
+public class Hatake extends Ninja implements SharinganInterface, AnbuInterface, HokageInterface {
 
     public void boasVindas() {
         System.out.println(nome + " Eu sou um Hatake");
@@ -12,5 +12,9 @@ public class Hatake extends Ninja implements SharinganInterface, AnbuInterface{
 
     public void ninjaDeElite() {
         System.out.println(nome + " Eu sou um Ninja de Elite");
+    }
+
+    public void hokageAtivo() {
+        System.out.println(nome + " Eu sou um Hokage");
     }
 }
