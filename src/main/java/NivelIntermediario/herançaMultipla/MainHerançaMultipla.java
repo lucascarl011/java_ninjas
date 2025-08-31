@@ -8,5 +8,11 @@ public class MainHerançaMultipla {
         sasuke.idade = 18;
         sasuke.aldeia = "Aldeia da Folha";
         sasuke.sharinganAtivado();
+
+        Hatake kakashi = new Hatake();
+        kakashi.nome = "Kakashi";
+        kakashi.idade = 27;
+        kakashi.aldeia = "Aldeia da Folha";
+        kakashi.boasVindas();
     }
 }
