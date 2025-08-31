@@ -16,5 +16,10 @@ public class MainPoliEABS {
         sasuke.idade = 19;
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalha();
+
+        // Utilizando a implemnetação dos construtores
+        Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da Folha", 27);
+        itachi.habilidadeEspecial();
+        itachi.estrategiaDeBatalha();
     }
 }
