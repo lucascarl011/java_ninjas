@@ -3,10 +3,7 @@ package NivelIntermediario.polimorfismoEAbstracao;
 public class MainPoliEABS {
     public static void main(String[] args) {
 
-        Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.aldeia = "Aldeia da Folha";
-        naruto.idade = 16;
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki", " Aldeia da Folha", 17, 15, NivelNinja.JOUNIN);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalha();
 
