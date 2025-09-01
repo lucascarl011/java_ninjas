@@ -10,10 +10,7 @@ public class MainPoliEABS {
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalha();
 
-        Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.aldeia = "Aldeia da Folha";
-        sasuke.idade = 19;
+        Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da Folha", 19, 20, NivelNinja.GENIN);
         sasuke.habilidadeEspecial();
         sasuke.estrategiaDeBatalha();
 
@@ -21,5 +18,9 @@ public class MainPoliEABS {
         Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da Folha", 27);
         itachi.habilidadeEspecial();
         itachi.estrategiaDeBatalha();
+
+        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
+        madara.habilidadeEspecial();
+        madara.estrategiaDeBatalha();
     }
 }

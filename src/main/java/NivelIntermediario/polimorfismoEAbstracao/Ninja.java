@@ -14,6 +14,7 @@ public  abstract class Ninja implements EstrategiaDeBatalha {
     public Ninja() {
     }
 
+    // Metodo exixstemte: primeiro metodo
     public Ninja(String nome, String aldeia, int idade) {
         this.nome = nome;
         this.aldeia = aldeia;
