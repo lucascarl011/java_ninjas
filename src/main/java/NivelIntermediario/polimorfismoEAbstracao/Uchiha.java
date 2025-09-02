@@ -19,4 +19,22 @@ public class Uchiha extends Ninja{
     public void habilidadeEspecial(){
         System.out.println("Meu nome é " + nome + " e esse é meu ataque Uchiha, um ataque de fogo. Eu já completei: " + numeroDeMissoesConcluidas + " Missões");
     }
+
+    @Override
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é: " + nome + " Essa é a minha Inteligencia de combate");
+    }
+
+    @Override
+    public void inteligenciaDeCombate(int qi) {
+
+        if (qi > 150) {
+            System.out.println("Seu QI é: " + qi + " e você é um gênio");
+        } else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi + " e você é um Ninja Promissor");
+        }else {
+            System.out.println("Seu QI é: " + qi + " e você precisa treinar mais sua estratégia de combate");
+        }
+
+    }
 }
