@@ -39,4 +39,22 @@ public  abstract class Ninja implements EstrategiaDeBatalha {
     public void estrategiaDeBatalha() {
         System.out.println("Essa é a minha estratégia de batalha");
     }
+
+    // Inteligencia de Combate - metodo padrão
+    public void inteligenciaDeCombate() {
+        System.out.println("Meu nome é: " + nome + " Essa é a minha INteligencia de combate");
+    }
+
+    // Inteligencia de combate - Sobrecarga de metodo
+    public void inteligenciaDeCombate(int qi) {
+
+        if (qi > 150) {
+            System.out.println("Seu QI é: " + qi + " e você é um gênio");
+        } else if (qi >= 130) {
+            System.out.println("Seu QI é: " + qi + " e você é um Ninja Promissor");
+        }else {
+            System.out.println("Seu QI é: " + qi + " e você precisa treinar mais sua estratégia de combate");
+        }
+
+    }
 }
