@@ -49,12 +49,18 @@ public  abstract class Ninja implements EstrategiaDeBatalha {
     public void inteligenciaDeCombate(int qi) {
 
         if (qi > 150) {
-            System.out.println("Seu QI é: " + qi + " e você é um gênio");
+            System.out.println("Meu QI é: " + qi + " e sou um gênio");
         } else if (qi >= 130) {
-            System.out.println("Seu QI é: " + qi + " e você é um Ninja Promissor");
+            System.out.println("Meu QI é: " + qi + " e sou um Ninja Promissor");
         }else {
-            System.out.println("Seu QI é: " + qi + " e você precisa treinar mais sua estratégia de combate");
+            System.out.println("meu QI é: " + qi + " e preciso treinar mais minha estratégia de combate");
         }
 
+    }
+
+    @Override
+    public String toString() {
+        return "Meu nome é: " + nome + ", eu sou da: " + aldeia + ", eu tenho: " + idade +
+                " anos. " + " Já completei " +  numeroDeMissoesConcluidas + " missões, " + " e sou um " + rank;
     }
 }

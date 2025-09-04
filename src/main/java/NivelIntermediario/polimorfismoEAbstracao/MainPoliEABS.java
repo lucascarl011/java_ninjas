@@ -3,25 +3,19 @@ package NivelIntermediario.polimorfismoEAbstracao;
 public class MainPoliEABS {
     public static void main(String[] args) {
 
+        System.out.println("------------- Ninja Naruto -------------");
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki", " Aldeia da Folha", 17, 15, NivelNinja.JOUNIN);
+        System.out.println(naruto);
         naruto.habilidadeEspecial();
-        naruto.estrategiaDeBatalha();
+        naruto.inteligenciaDeCombate(150);
+        naruto.inteligenciaDeCombate();
 
+        System.out.println();
+        System.out.println("------------- Ninja Sasuke -------------");
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Aldeia da Folha", 19, 20, NivelNinja.GENIN);
+        System.out.println(sasuke);
         sasuke.habilidadeEspecial();
-        sasuke.estrategiaDeBatalha();
-
-        // Utilizando a implemnetação dos construtores
-        Uchiha itachi = new Uchiha("Itachi Uchiha", "Aldeia da Folha", 27);
-        itachi.habilidadeEspecial();
-        itachi.estrategiaDeBatalha();
-
-        Uchiha madara = new Uchiha("Madara Uchiha", "Aldeia da Folha", 45, 900, NivelNinja.KAGE);
-        madara.habilidadeEspecial();
-        madara.estrategiaDeBatalha();
-        // metodo comum
-        madara.inteligenciaDeCombate();
-        // metodo sobrecarregado
-        madara.inteligenciaDeCombate(90);
+        sasuke.inteligenciaDeCombate(300);
+        sasuke.inteligenciaDeCombate();
     }
 }
