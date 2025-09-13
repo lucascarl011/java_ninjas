@@ -15,7 +15,7 @@ public abstract class ContaBancaria implements Conta{
     }
 
      @Override
-     public abstract void depositar(double valor);
+     public abstract void depositar(double valorDeposito);
 
 
 

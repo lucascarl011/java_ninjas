@@ -8,11 +8,11 @@ public class ContaCorrente extends ContaBancaria{
     }
 
     @Override
-    public void depositar(double valor){
+    public void depositar(double valorDeposito) {
 
-        if (valor > 0) {
-            saldo += valor;
-            System.out.println("Depósito realizado na Conta Corrente: R$" + valor);
+        if (valorDeposito > 0) {
+            saldo += valorDeposito;
+            System.out.println("Depósito realizado na Conta Corrente: R$" + valorDeposito);
         } else {
             System.out.println("Valor inválido para depósito! Tente outro valor.");
         }
