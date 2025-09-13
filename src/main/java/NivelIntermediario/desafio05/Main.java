@@ -1,5 +1,7 @@
 package NivelIntermediario.desafio05;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -15,5 +17,15 @@ public class Main {
         System.out.println("Saldo Inicial na Conta Poupanca R$: " + cp.consultarSaldo());
         cp.depositar(500);
         System.out.println("Saldo após deposito R$: " + cp.consultarSaldo());
+
+        System.out.println("\nSaque na na conta Corrente: ");
+        cc.sacar(200);
+
+        System.out.println("\n----- Transferência ---------");
+        cc.transferir(300, cp);
+
+        System.out.println("\n--- SALDOS FINAIS ---");
+        System.out.println("Conta Corrente R$: " + cc.consultarSaldo());
+        System.out.println("Conta Poupanca R$: " + cp.consultarSaldo());
     }
 }
