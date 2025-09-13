@@ -12,7 +12,7 @@ public class ContaCorrente extends ContaBancaria{
 
         if (valor > 0) {
             saldo += valor;
-            System.out.println("Depósito realizado na Conta Corrente: R$" + saldo);
+            System.out.println("Depósito realizado na Conta Corrente: R$" + valor);
         } else {
             System.out.println("Valor inválido para depósito! Tente outro valor.");
         }
