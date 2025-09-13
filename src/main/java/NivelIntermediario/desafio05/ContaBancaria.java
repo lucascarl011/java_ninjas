@@ -14,6 +14,16 @@ public abstract class ContaBancaria implements Conta{
         return saldo;
     }
 
+    @Override
+    public void sacar(double valorSaque){
+         if (valorSaque > 0 && valorSaque <= saldo) {
+             saldo -= valorSaque;
+             System.out.println("Saque realizado com sucesso: -" + valorSaque);
+         }else {
+             System.out.println("Saldo insuficiente");
+         }
+    }
+
      @Override
      public abstract void depositar(double valorDeposito);
 
