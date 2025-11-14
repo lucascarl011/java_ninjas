@@ -11,6 +11,7 @@ public class Shuriken {
         return tamanho;
     }
 
+    @Override
     public String toString() {
         return "Shuriken de tamanho: " + tamanho;
     }
