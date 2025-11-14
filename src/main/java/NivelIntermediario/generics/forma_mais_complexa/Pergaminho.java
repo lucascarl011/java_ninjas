@@ -1,22 +1,18 @@
 package NivelIntermediario.generics.forma_mais_complexa;
 
 public class Pergaminho {
-    private String nome;
+    private String conteudo;
 
-    public Pergaminho(String nome) {
-        this.nome = nome;
+    public Pergaminho(String conteudo) {
+        this.conteudo = conteudo;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getConteudo() {
+        return conteudo;
     }
 
     @Override
     public String toString() {
-        return "Pergaminho: " + nome;
+        return "Pergaminho: " + conteudo;
     }
 }
