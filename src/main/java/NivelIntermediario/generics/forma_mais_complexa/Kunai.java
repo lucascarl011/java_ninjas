@@ -7,4 +7,11 @@ public class Kunai {
         this.nome = nome;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String toString() {
+        return "Kunai: " + nome;
+    }
 }
