@@ -25,7 +25,8 @@ public class Main {
 
         System.out.println("Lista com adição do Tobirama Haruno: " + ninjasList);
 
-        // Para substituir elementos da lista utilizamos: set - (o "3" indicado o elemento a ser substituido e depois da virgula o elemento a ser adicionado "Kakashi")
+        // Para substituir elementos da lista utilizamos: set -
+        // (o "3" indicado o elemento a ser substituido e depois da virgula o elemento a ser adicionado "Kakashi")
         ninjasList.set(3, "Kakashi");
 
         System.out.println("Lista com substituição de ninja: " + ninjasList);

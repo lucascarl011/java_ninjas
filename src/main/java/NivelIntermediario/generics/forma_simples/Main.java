@@ -1,4 +1,4 @@
-package NivelIntermediario.generics;
+package NivelIntermediario.generics.forma_simples;
 
 /*
 * O que são generics?
