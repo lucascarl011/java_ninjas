@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.introducao;
 
 // ESSA É A CLASSE MÃE!!!
 public class Ninja {

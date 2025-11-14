@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.introducao;
 
 public class Uzumaki extends Ninja {
 

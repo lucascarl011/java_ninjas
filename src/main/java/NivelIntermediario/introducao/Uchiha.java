@@ -1,4 +1,4 @@
-package NivelIntermediario;
+package NivelIntermediario.introducao;
 
 // ESSA É UMA CLASSE FILHA!!! - ELA HERDA OS ATRIBUTOS E METÓDOS DA CLASSE MÃE.
 public class Uchiha extends Ninja {
