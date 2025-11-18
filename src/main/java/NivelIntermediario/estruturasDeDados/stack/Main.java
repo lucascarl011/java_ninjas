@@ -1,4 +1,4 @@
-package NivelIntermediario.estruturasDeDados.listEArray.stack;
+package NivelIntermediario.estruturasDeDados.stack;
 
 import java.util.ArrayList;
 import java.util.List;
